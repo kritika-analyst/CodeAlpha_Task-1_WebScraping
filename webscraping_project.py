@@ -1,6 +1,6 @@
 # Project: Job listings Web Scraper
 # Author: Kritika 
-# Task 1 - Web Scraping using Python
+# Web Scraping using Python
 
 # Import required libraries
 import requests                    #open websites
@@ -106,5 +106,6 @@ print(data)
 data.to_csv("jobs_data.csv", index=False) 
 
 
+print("Web Scraping Project 1 Completed Successfully")
 
 
